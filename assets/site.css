@@ -190,3 +190,57 @@ a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit}b
  .contact-reference .contact-methods a{font-size:15px}
  .contact-reference .quote-form{padding:23px 20px}
 }
+
+
+/* WhatsApp: subtle attention animation; no flashing or continuous shaking. */
+.whatsapp-floating{
+  isolation:isolate;
+  overflow:visible;
+  animation:wa-soft-glow 6s ease-in-out infinite;
+}
+.whatsapp-floating::before{
+  content:"";
+  position:absolute;
+  inset:-3px;
+  border:2px solid #25d366;
+  border-radius:inherit;
+  opacity:0;
+  pointer-events:none;
+  z-index:-1;
+  animation:wa-soft-ring 6s ease-out infinite;
+}
+.whatsapp-floating .wa-icon{
+  position:relative;
+  z-index:1;
+  transform-origin:center;
+  animation:wa-friendly-nudge 6s ease-in-out infinite;
+}
+@keyframes wa-friendly-nudge{
+  0%,7%,14%,100%{transform:rotate(0deg) scale(1)}
+  9%{transform:rotate(-10deg) scale(1.08)}
+  11%{transform:rotate(10deg) scale(1.08)}
+}
+@keyframes wa-soft-ring{
+  0%,5%,23%,100%{opacity:0;transform:scale(1)}
+  9%{opacity:.65;transform:scale(1.02)}
+  21%{opacity:0;transform:scale(1.23)}
+}
+@keyframes wa-soft-glow{
+  0%,24%,100%{box-shadow:0 9px 26px #0004}
+  11%{box-shadow:0 9px 26px #0004,0 0 0 6px #25d3662b}
+}
+.whatsapp-floating:hover,
+.whatsapp-floating:focus-visible,
+.whatsapp-floating:hover::before,
+.whatsapp-floating:focus-visible::before,
+.whatsapp-floating:hover .wa-icon,
+.whatsapp-floating:focus-visible .wa-icon{
+  animation-play-state:paused;
+}
+@media(prefers-reduced-motion:reduce){
+  .whatsapp-floating,
+  .whatsapp-floating::before,
+  .whatsapp-floating .wa-icon{
+    animation:none!important;
+  }
+}
