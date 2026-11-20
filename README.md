@@ -10,12 +10,25 @@ Site estático, responsivo e em francês para MP Services, empresa de renovaçã
 
 A homepage foi redesenhada com **Tim**, mascote virtual e garoto-propaganda da empresa, como apresentador dos serviços. Seis fotos publicitárias realistas criadas por IA estão disponíveis em `assets/tim-*.webp`, em arquivos compactos e hospedados diretamente no GitHub Pages. Tim aparece na capa, seção de apresentação, cards de Gyproc, pintura, parquet, carrelage, renovação e limpeza, campanha de especialidades, formulário e páginas de serviço. As artes são explicitamente marcadas como IA e não representam trabalhadores reais ou obras executadas.
 
+
+## Direção visual atual — serviços em primeiro plano
+
+A homepage usa **uma única imagem de Tim**, a mascote publicitária virtual, no hero de boas-vindas. As páginas dos serviços não incluem imagens do personagem. O foco visual é mostrar exemplos de estruturas, aplicações e acabamentos com fotografias ilustrativas.
+
+- Seção de três exemplos destacados na homepage, com links para as páginas de serviços.
+- Seis cartões de serviço com fotos do contexto e dos resultados esperados, sem Tim.
+- Galeria de inspiração filtrável com fotografias não atribuídas a MP Services.
+- **Três exemplos com descrições por serviço**, 18 imagens descritivas distribuídas pelas seis páginas individuais.
+- O antigo comparador de fotos de espaços diferentes foi removido para evitar aparência de antes/depois real.
+
+O site **não apresenta essas fotografias como trabalhos concluídos por MP Services**. Para criar a verdadeira seção de realizações, é necessário receber fotos reais autorizadas, com informação do projeto e, idealmente, imagens do mesmo local antes/depois.
+
 ## Características da versão 2.0
 
 - Design preto/grafite, dourado e branco, com logotipo oficial extraído do material do cliente.
 - Fotografias profissionais de inspiração, com autoria e licença documentadas em [IMAGE_CREDITS.md](IMAGE_CREDITS.md).
-- Página inicial com seis serviços e oito exemplos de referência em uma galeria filtrável e ampliável.
-- Comparador visual com aviso explícito de que **as imagens não são do mesmo trabalho**; pronto para substituir pelas fotografias autênticas de antes/depois.
+- Página inicial com seis serviços, galeria fotográfica filtrável e três exemplos em destaque.
+- O comparador ilustrativo foi retirado até existir material real de antes/depois.
 - Seis páginas de SEO local: Gyproc, pintura, parquet, carrelage, renovação e limpeza.
 - Menu mobile, imagens responsivas, formulário de orçamento via WhatsApp, FAQ e sitemap.
 - Página de informações legais provisória com aviso de dados empresariais pendentes de validação.
