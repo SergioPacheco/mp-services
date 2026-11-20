@@ -8,7 +8,9 @@ if(modal&&modalImage){qsa('[data-photo]').forEach(card=>card.addEventListener('c
 const range=qs('#compare-range'),over=qs('#compare-top'),bar=qs('#compare-divider'),handle=qs('#compare-handle');
 if(range&&over&&bar&&handle){range.addEventListener('input',()=>{const v=Number(range.value);over.style.clipPath='inset(0 '+(100-v)+'% 0 0)';bar.style.left=v+'%';handle.style.left=v+'%';});}
 qsa('[data-service]').forEach(link=>link.addEventListener('click',()=>{const select=qs('#service');if(select&&[...select.options].some(o=>o.value===link.dataset.service))select.value=link.dataset.service;}));
+const requestedService=new URLSearchParams(window.location.search).get('service');const serviceSelector=qs('#service');if(requestedService&&serviceSelector&&[...serviceSelector.options].some(o=>o.value===requestedService))serviceSelector.value=requestedService;
 const form=qs('#quote-form');
 if(form){form.addEventListener('submit',e=>{e.preventDefault();if(!form.reportValidity())return;const x=new FormData(form);const parts=['Bonjour MP Services,','Je souhaite demander un devis.','Nom : '+x.get('nom'),'Commune : '+x.get('commune'),'Service : '+x.get('service'),'Délai souhaité : '+(x.get('delai')||'À discuter'),'Description du projet : '+x.get('details')];const link='https://wa.me/32475501729?text='+encodeURIComponent(parts.join('\n'));const w=window.open(link,'_blank','noopener,noreferrer');if(!w){window.location.href=link;}});}
+qsa('img[src^="https://images.unsplash.com/"]').forEach(img=>{img.addEventListener('error',()=>{if(img.dataset.fallbackApplied)return;img.dataset.fallbackApplied='true';img.removeAttribute('srcset');img.src='assets/interieur.svg';});});
 const yr=qs('[data-year]');if(yr)yr.textContent=String(new Date().getFullYear());
 })();
