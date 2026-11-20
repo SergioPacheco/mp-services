@@ -26,5 +26,7 @@ Ces fichiers sont des scènes publicitaires fictives créées par IA à partir d
 | `assets/tim-peinture.webp` | Tim effectuant un travail de peinture |
 | `assets/tim-gyproc.webp` | Tim posant une plaque de Gyproc |
 | `assets/tim-parquet.webp` | Tim installant un parquet |
+| `assets/tim-carrelage.webp` | Tim posant du carrelage |
+| `assets/tim-nettoyage.webp` | Tim nettoyant une cuisine |
 
 Les fichiers WebP sont servis directement depuis GitHub Pages, pas depuis Unsplash ou Google Drive.
