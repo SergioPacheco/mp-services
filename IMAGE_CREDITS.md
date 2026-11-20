@@ -1,6 +1,6 @@
 # Crédits images — MP Services
 
-Les images photographiques du site sont utilisées **à titre illustratif** et ne représentent **pas** des chantiers réalisés par MP Services. Elles proviennent de [Unsplash](https://unsplash.com/license), dont la licence autorise l'utilisation commerciale sous ses conditions.
+Les images de référence Unsplash sont illustratives et ne représentent pas des chantiers réalisés par MP Services. Le site utilise aussi des visuels publicitaires originaux générés par IA montrant Tim, mascotte virtuelle de la marque. Elles proviennent de [Unsplash](https://unsplash.com/license), dont la licence autorise l'utilisation commerciale sous ses conditions.
 
 | Usage | Photographe / source | Image source |
 |---|---|---|
@@ -15,3 +15,16 @@ Les images photographiques du site sont utilisées **à titre illustratif** et n
 Les visuels sont chargés à partir du domaine `images.unsplash.com`. Il s'agit d'une **dépendance externe** : pour un hébergement entièrement autonome, télécharger et optimiser les images autorisées puis les héberger avec le projet.
 
 Les images publicitaires MP Services fournies initialement par le client sont des références créatives. Elles contiennent parfois des contacts obsolètes et ne sont pas utilisées comme preuve de projets réalisés.
+
+## Campagne Tim — visuels IA originaux
+
+Ces fichiers sont des scènes publicitaires fictives créées par IA à partir des images de référence de Tim fournies par le client. **Tim n'est pas un employé réel et les scènes ne constituent pas des photographies de réalisations de MP Services.**
+
+| Fichier | Sujet |
+|---|---|
+| `assets/tim-hero.webp` | Tim présentant une rénovation |
+| `assets/tim-peinture.webp` | Tim effectuant un travail de peinture |
+| `assets/tim-gyproc.webp` | Tim posant une plaque de Gyproc |
+| `assets/tim-parquet.webp` | Tim installant un parquet |
+
+Les fichiers WebP sont servis directement depuis GitHub Pages, pas depuis Unsplash ou Google Drive.
