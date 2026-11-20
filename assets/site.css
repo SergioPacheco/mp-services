@@ -47,3 +47,41 @@ a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit}b
  .site-header .nav-links{top:100px}
  .footer .brand img{width:150px}
 }
+
+/* MP Services — TIM brand ambassador campaign */
+.hero.hero-tim{min-height:0;background:linear-gradient(122deg,#09151c 5%,#192a31 72%,#283335 100%);padding:0;display:block;overflow:hidden}
+.hero.hero-tim::after{display:none}
+.hero-tim-layout{display:grid;grid-template-columns:1.04fr .96fr;align-items:center;gap:56px;min-height:620px;padding-block:56px}
+.hero-tim-copy{position:relative;z-index:2}
+.hero-tim .tim-kicker{display:inline-flex;border:1px solid #d1a45775;border-radius:99px;padding:7px 16px;color:#e3bc79;font-size:11px;font-weight:800;letter-spacing:.105em}
+.hero-tim h1{font:800 clamp(39px,5vw,66px)/1.12 Manrope,Arial,sans-serif;letter-spacing:-.048em;max-width:640px;margin:25px 0}
+.hero-tim h1 em{font-style:normal;color:#e4b76d}
+.hero-tim .desc{font-size:16px;line-height:1.8;max-width:550px}
+.hero-tim .hero-badges{margin-top:37px;gap:14px 23px}
+.tim-disclaimer{font-size:11px;max-width:550px;color:#acbac0;margin:24px 0 0;line-height:1.5}
+.hero-tim-media{position:relative;border-radius:18px;overflow:hidden;background:#29332f;box-shadow:0 24px 70px #0006;align-self:center}
+.hero-tim-media img{display:block;width:100%;aspect-ratio:5/4;height:auto;object-fit:cover;object-position:39% center}
+.hero-tim-media figcaption{position:absolute;bottom:0;left:0;right:0;padding:20px 14px 13px;background:linear-gradient(transparent,#101b23da);color:#f5e6cc;font-size:11px;text-align:center;line-height:1.35}
+.section-tim{background:#fff}
+.tim-intro-grid{display:grid;grid-template-columns:1fr 1fr;gap:8%;align-items:center}
+.tim-intro-photo{position:relative}
+.tim-intro-photo img{width:100%;height:495px;object-fit:cover;object-position:37% center;border-radius:15px}
+.tim-photo-label{position:absolute;left:20px;bottom:20px;color:#fff;background:#13212be9;border-left:4px solid #c69a4b;padding:11px 15px;font-size:11px;letter-spacing:.09em;font-weight:800}
+.tim-identity-note{font-size:12px!important;color:#65717a!important;line-height:1.6;border-left:3px solid #c69a4b;padding-left:12px;margin:16px 0 22px}
+.tim-showcase{background:#f5f3ed}
+.tim-showcase-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.tim-work{border:1px solid #dedfdd;border-radius:15px;background:#fff;overflow:hidden;transition:transform .2s,box-shadow .2s}
+.tim-work:hover{transform:translateY(-4px);box-shadow:0 15px 35px #12212b18}
+.tim-work>img{width:100%;aspect-ratio:4/3;object-fit:cover;object-position:40% 40%}
+.tim-work>div{padding:22px}
+.tim-work h3{margin:8px 0;font-size:20px;line-height:1.3}
+.tim-work p{margin:0 0 14px;font-size:13px;color:#65717a}
+.tim-work a{font-size:13px;font-weight:800;color:#936b35;text-decoration:underline;text-underline-offset:3px}
+.tim-contact{display:flex;align-items:center;gap:16px;margin-top:20px;max-width:560px}
+.tim-contact img{width:104px;height:104px;object-fit:cover;object-position:29% 40%;border:3px solid #c69a4b;border-radius:50%;flex:none}
+.tim-contact p{font-size:14px;line-height:1.6;color:white;margin:0}
+.tim-contact small{color:#d9b779;font-size:11px}
+#contact .lead{line-height:1.65}
+@media(max-width:1100px){.hero-tim-layout{gap:32px}.hero-tim h1{font-size:clamp(38px,4.6vw,60px)}}
+@media(max-width:800px){.hero-tim-layout{grid-template-columns:1fr;gap:25px;min-height:0;padding-block:54px 38px}.hero-tim-copy{max-width:720px}.hero-tim h1{font-size:clamp(40px,7vw,65px)}.hero-tim-media{max-width:690px;width:100%}.hero-tim-media img{aspect-ratio:16/9;object-position:40% 43%}.tim-intro-grid{grid-template-columns:1fr;gap:34px}.tim-intro-photo{max-width:660px}.tim-intro-photo img{height:420px}.tim-showcase-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.hero-tim-layout{padding-block:43px 30px}.hero-tim h1{font-size:clamp(37px,10vw,50px);margin:18px 0}.hero-tim .desc{font-size:15px}.hero-tim .hero-badges{margin-top:20px;gap:9px 15px}.hero-tim-media img{aspect-ratio:4/3;object-position:40% center}.tim-intro-photo img{height:350px}.tim-showcase-grid{grid-template-columns:1fr}.tim-work>img{aspect-ratio:5/3}.tim-contact img{width:76px;height:76px}.tim-contact p{font-size:12px}.hero-tim .btn{width:100%}}
