@@ -1,2 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://www.mp-services.be/</loc></url></urlset>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url><loc>https://www.mp-services.be/</loc></url>
+<url><loc>https://www.mp-services.be/services/gyproc.html</loc></url>
+<url><loc>https://www.mp-services.be/services/peinture.html</loc></url>
+<url><loc>https://www.mp-services.be/services/parquet.html</loc></url>
+<url><loc>https://www.mp-services.be/services/carrelage.html</loc></url>
+<url><loc>https://www.mp-services.be/services/renovation.html</loc></url>
+<url><loc>https://www.mp-services.be/services/nettoyage.html</loc></url>
+</urlset>
