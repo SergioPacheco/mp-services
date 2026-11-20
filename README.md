@@ -12,6 +12,18 @@ python3 -m http.server 8080
 
 Puis ouvrir http://localhost:8080
 
+### Mise à jour et dépannage
+
+Si vous avez déjà cloné le dépôt, lancez `git pull origin main` avant de tester. Exécutez le serveur **à la racine du dépôt**, dans le dossier qui contient `index.html` et `assets/`.
+
+```bash
+git clone https://github.com/SergioPacheco/mp-services.git
+cd mp-services
+python3 -m http.server 8080
+```
+
+Le navigateur peut ensuite ouvrir `http://localhost:8080/`. Les chemins des images sont relatifs et sont aussi compatibles avec une ouverture directe de `index.html`. Si le port 8080 est occupé, essayez `python3 -m http.server 8081` et `http://localhost:8081/`.
+
 ## Déploiement sur Cloudflare Pages
 
 1. Dans Cloudflare : **Workers & Pages → Create → Pages → Import an existing Git repository**.
