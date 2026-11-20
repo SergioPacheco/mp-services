@@ -8,7 +8,7 @@ Site estático, responsivo e em francês para MP Services, empresa de renovaçã
 
 ## Versão Tim — identidade humana
 
-A homepage foi redesenhada com **Tim**, mascote virtual e garoto-propaganda da empresa, como apresentador dos serviços. Quatro fotos publicitárias realistas criadas por IA estão disponíveis em `assets/tim-*.webp`, em arquivos compactos e hospedados diretamente no GitHub Pages. Tim aparece na capa, seção de apresentação, cards de Gyproc, pintura e parquet, campanha de especialidades, formulário e páginas de serviço. As artes são explicitamente marcadas como IA e não representam trabalhadores reais ou obras executadas.
+A homepage foi redesenhada com **Tim**, mascote virtual e garoto-propaganda da empresa, como apresentador dos serviços. Seis fotos publicitárias realistas criadas por IA estão disponíveis em `assets/tim-*.webp`, em arquivos compactos e hospedados diretamente no GitHub Pages. Tim aparece na capa, seção de apresentação, cards de Gyproc, pintura, parquet, carrelage, renovação e limpeza, campanha de especialidades, formulário e páginas de serviço. As artes são explicitamente marcadas como IA e não representam trabalhadores reais ou obras executadas.
 
 ## Características da versão 2.0
 
