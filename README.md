@@ -71,8 +71,7 @@ services/
 assets/
   site.css
   site.js
-  logo-dark.svg
-  logo-light.svg
+  logo-oficial.webp  # recorte otimizado da arte oficial fornecida pela empresa
   favicon.svg
   ... SVGs de fallback
 robots.txt
@@ -94,3 +93,7 @@ O código não inventa depoimentos, avaliações, prêmios, anos de experiência
 ## Licença das imagens
 
 Fotografias de Unsplash sob a [licença Unsplash](https://unsplash.com/license), utilizadas apenas como referências visuais. Elas não são trabalhos executados pela MP Services. Os desenhos e elementos vetoriais do site foram produzidos especificamente para este projeto.
+
+## Identidade visual oficial
+
+O logotipo do cabeçalho, do rodapé e o ícone da página usam `assets/logo-oficial.webp`, obtido por recorte e compressão WebP da arte original fornecida pelo cliente (`post(1).jpg`). O símbolo, as letras e as cores não foram redesenhados. No rodapé, o logo mantém seu fundo branco dentro de um cartão claro. Para peças impressas, usar preferencialmente o arquivo original em resolução maior.
