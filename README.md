@@ -24,6 +24,20 @@ python3 -m http.server 8080
 
 Le navigateur peut ensuite ouvrir `http://localhost:8080/`. Les chemins des images sont relatifs et sont aussi compatibles avec une ouverture directe de `index.html`. Si le port 8080 est occupé, essayez `python3 -m http.server 8081` et `http://localhost:8081/`.
 
+## Publication gratuite avec GitHub Pages
+
+Le dépôt contient déjà `index.html` à la racine, le dossier `assets/` et `.nojekyll`. Il ne nécessite aucune commande de compilation.
+
+1. Ouvrir **https://github.com/SergioPacheco/mp-services/settings/pages**
+2. Dans **Build and deployment**, choisir **Deploy from a branch**.
+3. Choisir la branche **main**, le dossier **/(root)**, puis cliquer sur **Save**.
+4. Surveiller l'état de publication dans l'onglet **Actions** ou sur la même page des réglages.
+5. Lorsque GitHub Pages a terminé, ouvrir **https://sergiopacheco.github.io/mp-services/**.
+
+Les chemins des images sont relatifs et compatibles avec le sous-chemin `/mp-services/`. À l'avenir, pousser un commit sur `main` publiera automatiquement les changements (tant que GitHub Pages reste configuré sur cette branche).
+
+> Important : le domaine `www.mp-services.be` ne sera pas configuré automatiquement. Pour celui-ci, un enregistrement DNS et un réglage de domaine personnalisé seront nécessaires.
+
 ## Déploiement sur Cloudflare Pages
 
 1. Dans Cloudflare : **Workers & Pages → Create → Pages → Import an existing Git repository**.
