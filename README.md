@@ -6,9 +6,13 @@ Site estático, responsivo e em francês para MP Services, empresa de renovaçã
 **Domínio oficial planejado:** https://www.mp-services.be/  
 **Contato oficial:** +32 475 50 17 29 · info@mp-services.be
 
+## Versão Tim — identidade humana
+
+A homepage foi redesenhada com **Tim**, mascote virtual e garoto-propaganda da empresa, como apresentador dos serviços. Quatro fotos publicitárias realistas criadas por IA estão disponíveis em `assets/tim-*.webp`, em arquivos compactos e hospedados diretamente no GitHub Pages. Tim aparece na capa, seção de apresentação, cards de Gyproc, pintura e parquet, campanha de especialidades, formulário e páginas de serviço. As artes são explicitamente marcadas como IA e não representam trabalhadores reais ou obras executadas.
+
 ## Características da versão 2.0
 
-- Design preto/grafite, dourado e branco, com logotipo SVG.
+- Design preto/grafite, dourado e branco, com logotipo oficial extraído do material do cliente.
 - Fotografias profissionais de inspiração, com autoria e licença documentadas em [IMAGE_CREDITS.md](IMAGE_CREDITS.md).
 - Página inicial com seis serviços e oito exemplos de referência em uma galeria filtrável e ampliável.
 - Comparador visual com aviso explícito de que **as imagens não são do mesmo trabalho**; pronto para substituir pelas fotografias autênticas de antes/depois.
