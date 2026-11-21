@@ -1,11 +1,10 @@
-/* Paired AI before/after comparisons. Degrades gracefully if asset is not deployed. */
+/* Paired AI simulations: mouse, touch and keyboard; hidden until sprite loads. */
 (()=>{'use strict';
+const cards=Array.from(document.querySelectorAll('[data-before-after]'));
+if(!cards.length)return;
 const gallery=document.querySelector('#comparatifs-ia');
-if(!gallery)return;
-const cards=Array.from(gallery.querySelectorAll('[data-before-after]'));
 const asset=new Image();
 asset.onload=()=>{
- gallery.hidden=false;
  cards.forEach(card=>{
   const input=card.querySelector('.ba-range');
   const before=card.querySelector('.ba-before');
@@ -20,9 +19,13 @@ asset.onload=()=>{
   input.addEventListener('input',render);
   render();
  });
- const old=document.querySelector('#inspirations');
- if(old){old.hidden=true;old.id='inspirations-archive';gallery.id='inspirations';}
+ document.querySelectorAll('[data-ba-ready]').forEach(x=>{x.hidden=false;});
+ if(gallery){
+  gallery.hidden=false;
+  const old=document.querySelector('#inspirations');
+  if(old){old.hidden=true;old.id='inspirations-archive';gallery.id='inspirations';}
+ }
 };
-asset.onerror=()=>{gallery.hidden=true;};
+asset.onerror=()=>document.querySelectorAll('[data-ba-ready]').forEach(x=>x.hidden=true);
 asset.src='assets/portfolio-ia.webp';
 })();
