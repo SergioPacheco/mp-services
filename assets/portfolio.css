@@ -26,3 +26,10 @@
 .ba-legal{margin-top:20px;color:#68737b;font-size:12px;line-height:1.5}
 .ba-gallery [hidden]{display:none!important}
 @media(max-width:700px){.ba-gallery{padding:50px 0}.ba-heading{display:block!important}.ba-grid{grid-template-columns:1fr;gap:16px}.ba-info{padding:14px}.ba-info h3{font-size:17px}.ba-info a{font-size:12px}.ba-stage{aspect-ratio:4/3}}
+
+/* Individual service comparisons */
+.ba-service{background:#f7f6f2}
+.ba-service .lead{margin:0 0 20px;max-width:670px}
+.ba-service .ba-card{max-width:820px}
+.ba-service .ba-legal{max-width:820px}
+@media(max-width:600px){.ba-service{padding-block:48px}.ba-service .ba-card{margin:0}.ba-service .ba-info{flex-wrap:wrap;gap:9px}}
