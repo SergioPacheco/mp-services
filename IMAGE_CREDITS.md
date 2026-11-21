@@ -1,6 +1,6 @@
 # Crédits images — MP Services
 
-Les comparaisons « Avant / Après » de Gyproc, peinture, parquet, carrelage et rénovation sont des **simulations créées par IA**, regroupées dans `assets/portfolio-ia.webp`. Elles ne représentent pas des travaux réels de MP Services. Les photographies Unsplash restent disponibles comme galerie de secours si la ressource des simulations n’est pas accessible.
+Les comparaisons « Avant / Après » de Gyproc, peinture, parquet, carrelage et rénovation sont des **simulations créées par IA**, désormais préparées sous forme de dix fichiers WebP individuels haute résolution (`assets/{service}-avant.webp` et `assets/{service}-apres.webp`). Leur affichage est activé seulement une fois ces fichiers publiés. Elles ne représentent pas des travaux réels de MP Services. Les photographies Unsplash restent disponibles comme galerie de secours si la ressource des simulations n’est pas accessible.
 
 
 Les images de référence Unsplash sont illustratives et ne représentent pas des chantiers réalisés par MP Services. Le site utilise aussi des visuels publicitaires originaux générés par IA montrant Tim, mascotte virtuelle de la marque. Elles proviennent de [Unsplash](https://unsplash.com/license), dont la licence autorise l'utilisation commerciale sous ses conditions.
