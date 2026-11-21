@@ -6,22 +6,17 @@ Site estático, responsivo e em francês para MP Services, empresa de renovaçã
 **Domínio oficial planejado:** https://www.mp-services.be/  
 **Contato oficial:** +32 475 50 17 29 · info@mp-services.be
 
-## Versão Tim — identidade humana
+## Versão atual — serviços e comparações por IA
 
-A homepage foi redesenhada com **Tim**, mascote virtual e garoto-propaganda da empresa, como apresentador dos serviços. Seis fotos publicitárias realistas criadas por IA estão disponíveis em `assets/tim-*.webp`, em arquivos compactos e hospedados diretamente no GitHub Pages. Tim aparece na capa, seção de apresentação, cards de Gyproc, pintura, parquet, carrelage, renovação e limpeza, campanha de especialidades, formulário e páginas de serviço. As artes são explicitamente marcadas como IA e não representam trabalhadores reais ou obras executadas.
+A página inicial prioriza os seis serviços, mantém **Tim apenas no hero e na seção de contato**, e oferece acesso direto ao WhatsApp. O conteúdo redundante foi reduzido para uma leitura mais rápida, inclusive em celulares.
 
-
-## Direção visual atual — serviços em primeiro plano
-
-A homepage usa **uma única imagem de Tim**, a mascote publicitária virtual, no hero de boas-vindas. As páginas dos serviços não incluem imagens do personagem. O foco visual é mostrar exemplos de estruturas, aplicações e acabamentos com fotografias ilustrativas.
-
-- Seção de três exemplos destacados na homepage, com links para as páginas de serviços.
-- Seis cartões de serviço com fotos do contexto e dos resultados esperados, sem Tim.
-- Galeria de inspiração filtrável com fotografias não atribuídas a MP Services.
-- **Três exemplos com descrições por serviço**, 18 imagens descritivas distribuídas pelas seis páginas individuais.
-- O antigo comparador de fotos de espaços diferentes foi removido para evitar aparência de antes/depois real.
-
-O site **não apresenta essas fotografias como trabalhos concluídos por MP Services**. Para criar a verdadeira seção de realizações, é necessário receber fotos reais autorizadas, com informação do projeto e, idealmente, imagens do mesmo local antes/depois.
+- **Cinco comparadores antes/depois deslizantes**: Gyproc, pintura, parquet, carrelage e renovação.
+- Imagens são **simulações geradas por inteligência artificial**, nunca obras atribuídas à MP Services.
+- As imagens compactadas são hospedadas em `assets/portfolio-ia.webp`, com atlas de 2 colunas × 5 linhas. O código está em `assets/portfolio.css` e `assets/portfolio.js`.
+- Os comparadores também aparecem nas páginas individuais dos cinco serviços.
+- O componente espera a imagem carregar antes de aparecer; se ela falhar, a galeria fotográfica anterior é exibida.
+- Em todos os comparadores, usuários podem mover a divisão usando mouse, toque ou teclado.
+- O formulário continua opcional: o contato direto com WhatsApp está disponível separadamente.
 
 ## Características da versão 2.0
 
