@@ -22,8 +22,8 @@ A página inicial prioriza os seis serviços, mantém **Tim apenas no hero e na 
 
 - Design preto/grafite, dourado e branco, com logotipo oficial extraído do material do cliente.
 - Fotografias profissionais de inspiração, com autoria e licença documentadas em [IMAGE_CREDITS.md](IMAGE_CREDITS.md).
-- Página inicial com seis serviços, galeria fotográfica filtrável e três exemplos em destaque.
-- O comparador ilustrativo foi retirado até existir material real de antes/depois.
+- Página inicial com seis serviços e cinco comparações IA antes/depois; fotos Unsplash disponíveis como fallback.
+- Comparadores de simulação por IA são exibidos como inspiração, sem qualquer atribuição a obras reais.
 - Seis páginas de SEO local: Gyproc, pintura, parquet, carrelage, renovação e limpeza.
 - Menu mobile, imagens responsivas, formulário de orçamento via WhatsApp, FAQ e sitemap.
 - Página de informações legais provisória com aviso de dados empresariais pendentes de validação.
@@ -96,7 +96,7 @@ IMAGE_CREDITS.md
 
 1. **Validar identidade legal**: nome empresarial exato, forma jurídica, endereço do estabelecimento/sede, número BCE/TVA e demais informações obrigatórias para a Bélgica. Não publicar valores copiados de artes antigas sem confirmação.
 2. **Substituir exemplos ilustrativos por obras reais** fotografadas e autorizadas, com localização e descrição verificadas.
-3. **Substituir o comparador ilustrativo** por duas imagens autênticas do mesmo local, antes e depois, quando disponíveis.
+3. **Criar uma segunda galeria de obras verificadas** quando forem disponibilizadas fotos autênticas do mesmo local, antes e depois.
 4. **Revisar as informações legais e de proteção de dados**, incluindo carregamento de fontes e fotos de serviços externos.
 5. **Validar o website em navegadores móveis e desktop** e testar acessibilidade, desempenho e o fluxo de orçamento.
 
