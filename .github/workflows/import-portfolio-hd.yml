@@ -1,0 +1,51 @@
+name: Import HD renovation comparisons
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'assets/mp-portfolio-hd.zip'
+
+permissions:
+  contents: write
+
+jobs:
+  import-photographs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Validate and extract high-resolution WebP photographs
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import zipfile
+          src = Path('assets/mp-portfolio-hd.zip')
+          names = [
+              f'{kind}-{phase}.webp'
+              for kind in ('gyproc', 'peinture', 'parquet', 'carrelage', 'renovation')
+              for phase in ('avant', 'apres')
+          ]
+          with zipfile.ZipFile(src) as archive:
+              for name in names:
+                  if name not in archive.namelist():
+                      raise ValueError(f'Fichier absent du ZIP: {name}')
+                  data = archive.read(name)
+                  if len(data) < 20000 or data[:4] != b'RIFF' or data[8:12] != b'WEBP':
+                      raise ValueError(f'Image WebP invalide ou trop petite: {name}')
+                  (Path('assets') / name).write_bytes(data)
+                  print(name, len(data), 'bytes')
+          PY
+      - name: Commit high-resolution imagery
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/*-avant.webp assets/*-apres.webp
+          if ! git diff --cached --quiet; then
+            git commit -m "assets: install full-resolution before/after illustrations"
+            git push
+          fi
