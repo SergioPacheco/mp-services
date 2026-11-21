@@ -244,3 +244,8 @@ a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit}b
     animation:none!important;
   }
 }
+
+/* Direct message path: visible without requiring the quote form. */
+.contact-direct-wa{display:inline-flex;align-items:center;justify-content:center;margin:7px 0 14px;padding:13px 20px;max-width:100%;font-size:14px;white-space:normal;text-align:center}
+.contact-reference .contact-methods{margin-top:14px}
+@media(max-width:700px){.contact-direct-wa{width:100%;font-size:13px;margin-top:2px}.hero-tim .desc{max-width:36ch}}
