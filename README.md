@@ -6,13 +6,21 @@ Site estático, responsivo e em francês para MP Services, empresa de renovaçã
 **Domínio oficial planejado:** https://www.mp-services.be/  
 **Contato oficial:** +32 475 50 17 29 · info@mp-services.be
 
+## Correção de qualidade das imagens (HD)
+
+O antigo atlas `assets/portfolio-ia.webp` de aproximadamente 13 KB foi desativado porque sua compressão tornava as dez imagens muito pixeladas. A galeria padrão Unsplash fica visível enquanto as versões HD não estiverem publicadas.
+
+**Publicação do arquivo HD:** na pasta `assets/` do GitHub, faça upload do arquivo `mp-portfolio-hd.zip` (disponibilizado nesta conversa). O workflow `.github/workflows/import-portfolio-hd.yml` extrai as dez imagens originais WebP, com **1448 × 1086 pixels cada**, cria os arquivos `assets/<serviço>-avant.webp` e `assets/<serviço>-apres.webp`, e efetua commit. O JavaScript `assets/portfolio.js` verifica carregamento e largura mínima de 700 px antes de exibir cada comparador.
+
+O ZIP contém **simulações geradas por IA**, não obras reais executadas pela empresa.
+
 ## Versão atual — serviços e comparações por IA
 
 A página inicial prioriza os seis serviços, mantém **Tim apenas no hero e na seção de contato**, e oferece acesso direto ao WhatsApp. O conteúdo redundante foi reduzido para uma leitura mais rápida, inclusive em celulares.
 
 - **Cinco comparadores antes/depois deslizantes**: Gyproc, pintura, parquet, carrelage e renovação.
 - Imagens são **simulações geradas por inteligência artificial**, nunca obras atribuídas à MP Services.
-- As imagens compactadas são hospedadas em `assets/portfolio-ia.webp`, com atlas de 2 colunas × 5 linhas. O código está em `assets/portfolio.css` e `assets/portfolio.js`.
+- As imagens de alta resolução são carregadas individualmente em `assets/<serviço>-avant.webp` e `assets/<serviço>-apres.webp`. O código está em `assets/portfolio.css` e `assets/portfolio.js`.
 - Os comparadores também aparecem nas páginas individuais dos cinco serviços.
 - O componente espera a imagem carregar antes de aparecer; se ela falhar, a galeria fotográfica anterior é exibida.
 - Em todos os comparadores, usuários podem mover a divisão usando mouse, toque ou teclado.
