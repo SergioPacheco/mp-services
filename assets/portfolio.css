@@ -5,14 +5,10 @@
 .ba-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:23px}
 .ba-card{min-width:0;overflow:hidden;background:#fff;border:1px solid #e4e5e3;border-radius:16px;box-shadow:0 10px 32px #15212b0c;margin:0}
 .ba-stage{position:relative;aspect-ratio:4/3;overflow:hidden;background:#d8d6cf;isolation:isolate}
-.ba-scene{position:absolute;inset:0;background-image:url('portfolio-ia.webp');background-size:200% 500%;background-repeat:no-repeat}
+.ba-scene{position:absolute;inset:0;background-size:cover;background-position:center;background-repeat:no-repeat}
 .ba-before{background-position-x:0%;clip-path:inset(0 50% 0 0)}
 .ba-after{background-position-x:100%}
-.ba-card[data-type="gyproc"] .ba-scene{background-position-y:0%}
-.ba-card[data-type="peinture"] .ba-scene{background-position-y:25%}
-.ba-card[data-type="parquet"] .ba-scene{background-position-y:50%}
-.ba-card[data-type="carrelage"] .ba-scene{background-position-y:75%}
-.ba-card[data-type="renovation"] .ba-scene{background-position-y:100%}
+
 .ba-divider{position:absolute;top:0;bottom:0;left:50%;width:3px;background:#fff;transform:translateX(-50%);box-shadow:0 0 10px #0005;pointer-events:none}
 .ba-divider::after{content:"↔";position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:43px;height:43px;background:#c69a4b;border:3px solid #fff;border-radius:100%;color:#13232b;font:700 24px/37px Arial;text-align:center;box-shadow:0 4px 14px #0005}
 .ba-label{position:absolute;top:13px;padding:5px 11px;border-radius:6px;color:#fff;background:#142129cf;font-size:12px;font-weight:800;pointer-events:none}
