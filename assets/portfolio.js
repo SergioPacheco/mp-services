@@ -21,7 +21,7 @@ asset.onload=()=>{
   render();
  });
  const old=document.querySelector('#inspirations');
- if(old)old.hidden=true;
+ if(old){old.hidden=true;old.id='inspirations-archive';gallery.id='inspirations';}
 };
 asset.onerror=()=>{gallery.hidden=true;};
 asset.src='assets/portfolio-ia.webp';
