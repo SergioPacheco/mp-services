@@ -3,7 +3,7 @@
 Les comparaisons « Avant / Après » de Gyproc, peinture, parquet, carrelage et rénovation sont des **simulations créées par IA**, désormais préparées sous forme de dix fichiers WebP individuels haute résolution (`assets/{service}-avant.webp` et `assets/{service}-apres.webp`). Leur affichage est activé seulement une fois ces fichiers publiés. Elles ne représentent pas des travaux réels de MP Services. Les photographies Unsplash restent disponibles comme galerie de secours si la ressource des simulations n’est pas accessible.
 
 
-Les images de référence Unsplash sont illustratives et ne représentent pas des chantiers réalisés par MP Services. Le site utilise aussi des visuels publicitaires originaux générés par IA montrant Tim, mascotte virtuelle de la marque. Elles proviennent de [Unsplash](https://unsplash.com/license), dont la licence autorise l'utilisation commerciale sous ses conditions.
+Les images de référence Unsplash sont illustratives et ne représentent pas des chantiers réalisés par MP Services. Le site utilise aussi des visuels publicitaires originaux générés par IA montrant un personnage virtuel de présentation. Elles proviennent de [Unsplash](https://unsplash.com/license), dont la licence autorise l'utilisation commerciale sous ses conditions.
 
 | Usage | Photographe / source | Image source |
 |---|---|---|
@@ -19,17 +19,17 @@ Les visuels sont chargés à partir du domaine `images.unsplash.com`. Il s'agit 
 
 Les images publicitaires MP Services fournies initialement par le client sont des références créatives. Elles contiennent parfois des contacts obsolètes et ne sont pas utilisées comme preuve de projets réalisés.
 
-## Campagne Tim — visuels IA originaux
+## Visuels de présentation — visuels IA originaux
 
-Ces fichiers sont des scènes publicitaires fictives créées par IA à partir des images de référence de Tim fournies par le client. **Tim n'est pas un employé réel et les scènes ne constituent pas des photographies de réalisations de MP Services.**
+Ces fichiers sont des scènes publicitaires fictives créées par IA à partir des images de référence fournies par le client. **Le personnage n'est pas un employé réel et les scènes ne constituent pas des photographies de réalisations de MP Services.**
 
 | Fichier | Sujet |
 |---|---|
-| `assets/tim-hero.webp` | Tim présentant une rénovation |
-| `assets/tim-peinture.webp` | Tim effectuant un travail de peinture |
-| `assets/tim-gyproc.webp` | Tim posant une plaque de Gyproc |
-| `assets/tim-parquet.webp` | Tim installant un parquet |
-| `assets/tim-carrelage.webp` | Tim posant du carrelage |
-| `assets/tim-nettoyage.webp` | Tim nettoyant une cuisine |
+| `assets/tim-hero.webp` | Personnage présentant une rénovation |
+| `assets/tim-peinture.webp` | Personnage effectuant un travail de peinture |
+| `assets/tim-gyproc.webp` | Personnage posant une plaque de Gyproc |
+| `assets/tim-parquet.webp` | Personnage installant un parquet |
+| `assets/tim-carrelage.webp` | Personnage posant du carrelage |
+| `assets/tim-nettoyage.webp` | Personnage nettoyant une cuisine |
 
 Les fichiers WebP sont servis directement depuis GitHub Pages, pas depuis Unsplash ou Google Drive.

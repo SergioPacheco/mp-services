@@ -48,43 +48,43 @@ a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit}b
  .footer .brand img{width:150px}
 }
 
-/* MP Services — TIM brand ambassador campaign */
-.hero.hero-tim{min-height:0;background:linear-gradient(122deg,#09151c 5%,#192a31 72%,#283335 100%);padding:0;display:block;overflow:hidden}
-.hero.hero-tim::after{display:none}
-.hero-tim-layout{display:grid;grid-template-columns:1.04fr .96fr;align-items:center;gap:56px;min-height:620px;padding-block:56px}
-.hero-tim-copy{position:relative;z-index:2}
-.hero-tim .tim-kicker{display:inline-flex;border:1px solid #d1a45775;border-radius:99px;padding:7px 16px;color:#e3bc79;font-size:11px;font-weight:800;letter-spacing:.105em}
-.hero-tim h1{font:800 clamp(39px,5vw,66px)/1.12 Manrope,Arial,sans-serif;letter-spacing:-.048em;max-width:640px;margin:25px 0}
-.hero-tim h1 em{font-style:normal;color:#e4b76d}
-.hero-tim .desc{font-size:16px;line-height:1.8;max-width:550px}
-.hero-tim .hero-badges{margin-top:37px;gap:14px 23px}
-.tim-disclaimer{font-size:11px;max-width:550px;color:#acbac0;margin:24px 0 0;line-height:1.5}
-.hero-tim-media{position:relative;border-radius:18px;overflow:hidden;background:#29332f;box-shadow:0 24px 70px #0006;align-self:center}
-.hero-tim-media img{display:block;width:100%;aspect-ratio:5/4;height:auto;object-fit:cover;object-position:39% center}
-.hero-tim-media figcaption{position:absolute;bottom:0;left:0;right:0;padding:20px 14px 13px;background:linear-gradient(transparent,#101b23da);color:#f5e6cc;font-size:11px;text-align:center;line-height:1.35}
-.section-tim{background:#fff}
-.tim-intro-grid{display:grid;grid-template-columns:1fr 1fr;gap:8%;align-items:center}
-.tim-intro-photo{position:relative}
-.tim-intro-photo img{width:100%;height:495px;object-fit:cover;object-position:37% center;border-radius:15px}
-.tim-photo-label{position:absolute;left:20px;bottom:20px;color:#fff;background:#13212be9;border-left:4px solid #c69a4b;padding:11px 15px;font-size:11px;letter-spacing:.09em;font-weight:800}
-.tim-identity-note{font-size:12px!important;color:#65717a!important;line-height:1.6;border-left:3px solid #c69a4b;padding-left:12px;margin:16px 0 22px}
-.tim-showcase{background:#f5f3ed}
-.tim-showcase-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
-.tim-work{border:1px solid #dedfdd;border-radius:15px;background:#fff;overflow:hidden;transition:transform .2s,box-shadow .2s}
-.tim-work:hover{transform:translateY(-4px);box-shadow:0 15px 35px #12212b18}
-.tim-work>img{width:100%;aspect-ratio:4/3;object-fit:cover;object-position:40% 40%}
-.tim-work>div{padding:22px}
-.tim-work h3{margin:8px 0;font-size:20px;line-height:1.3}
-.tim-work p{margin:0 0 14px;font-size:13px;color:#65717a}
-.tim-work a{font-size:13px;font-weight:800;color:#936b35;text-decoration:underline;text-underline-offset:3px}
-.tim-contact{display:flex;align-items:center;gap:16px;margin-top:20px;max-width:560px}
-.tim-contact img{width:104px;height:104px;object-fit:cover;object-position:29% 40%;border:3px solid #c69a4b;border-radius:50%;flex:none}
-.tim-contact p{font-size:14px;line-height:1.6;color:white;margin:0}
-.tim-contact small{color:#d9b779;font-size:11px}
+/* MP Services campaign */
+.hero.hero-brand{min-height:0;background:linear-gradient(122deg,#09151c 5%,#192a31 72%,#283335 100%);padding:0;display:block;overflow:hidden}
+.hero.hero-brand::after{display:none}
+.hero-brand-layout{display:grid;grid-template-columns:1.04fr .96fr;align-items:center;gap:56px;min-height:620px;padding-block:56px}
+.hero-brand-copy{position:relative;z-index:2}
+.hero-brand .brand-kicker{display:inline-flex;border:1px solid #d1a45775;border-radius:99px;padding:7px 16px;color:#e3bc79;font-size:11px;font-weight:800;letter-spacing:.105em}
+.hero-brand h1{font:800 clamp(39px,5vw,66px)/1.12 Manrope,Arial,sans-serif;letter-spacing:-.048em;max-width:640px;margin:25px 0}
+.hero-brand h1 em{font-style:normal;color:#e4b76d}
+.hero-brand .desc{font-size:16px;line-height:1.8;max-width:550px}
+.hero-brand .hero-badges{margin-top:37px;gap:14px 23px}
+.brand-disclaimer{font-size:11px;max-width:550px;color:#acbac0;margin:24px 0 0;line-height:1.5}
+.hero-brand-media{position:relative;border-radius:18px;overflow:hidden;background:#29332f;box-shadow:0 24px 70px #0006;align-self:center}
+.hero-brand-media img{display:block;width:100%;aspect-ratio:5/4;height:auto;object-fit:cover;object-position:39% center}
+.hero-brand-media figcaption{position:absolute;bottom:0;left:0;right:0;padding:20px 14px 13px;background:linear-gradient(transparent,#101b23da);color:#f5e6cc;font-size:11px;text-align:center;line-height:1.35}
+.section-brand{background:#fff}
+.brand-intro-grid{display:grid;grid-template-columns:1fr 1fr;gap:8%;align-items:center}
+.brand-intro-photo{position:relative}
+.brand-intro-photo img{width:100%;height:495px;object-fit:cover;object-position:37% center;border-radius:15px}
+.brand-photo-label{position:absolute;left:20px;bottom:20px;color:#fff;background:#13212be9;border-left:4px solid #c69a4b;padding:11px 15px;font-size:11px;letter-spacing:.09em;font-weight:800}
+.brand-identity-note{font-size:12px!important;color:#65717a!important;line-height:1.6;border-left:3px solid #c69a4b;padding-left:12px;margin:16px 0 22px}
+.brand-showcase{background:#f5f3ed}
+.brand-showcase-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.brand-work{border:1px solid #dedfdd;border-radius:15px;background:#fff;overflow:hidden;transition:transform .2s,box-shadow .2s}
+.brand-work:hover{transform:translateY(-4px);box-shadow:0 15px 35px #12212b18}
+.brand-work>img{width:100%;aspect-ratio:4/3;object-fit:cover;object-position:40% 40%}
+.brand-work>div{padding:22px}
+.brand-work h3{margin:8px 0;font-size:20px;line-height:1.3}
+.brand-work p{margin:0 0 14px;font-size:13px;color:#65717a}
+.brand-work a{font-size:13px;font-weight:800;color:#936b35;text-decoration:underline;text-underline-offset:3px}
+.brand-contact{display:flex;align-items:center;gap:16px;margin-top:20px;max-width:560px}
+.brand-contact img{width:104px;height:104px;object-fit:cover;object-position:29% 40%;border:3px solid #c69a4b;border-radius:50%;flex:none}
+.brand-contact p{font-size:14px;line-height:1.6;color:white;margin:0}
+.brand-contact small{color:#d9b779;font-size:11px}
 #contact .lead{line-height:1.65}
-@media(max-width:1100px){.hero-tim-layout{gap:32px}.hero-tim h1{font-size:clamp(38px,4.6vw,60px)}}
-@media(max-width:800px){.hero-tim-layout{grid-template-columns:1fr;gap:25px;min-height:0;padding-block:54px 38px}.hero-tim-copy{max-width:720px}.hero-tim h1{font-size:clamp(40px,7vw,65px)}.hero-tim-media{max-width:690px;width:100%}.hero-tim-media img{aspect-ratio:16/9;object-position:40% 43%}.tim-intro-grid{grid-template-columns:1fr;gap:34px}.tim-intro-photo{max-width:660px}.tim-intro-photo img{height:420px}.tim-showcase-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(max-width:600px){.hero-tim-layout{padding-block:43px 30px}.hero-tim h1{font-size:clamp(37px,10vw,50px);margin:18px 0}.hero-tim .desc{font-size:15px}.hero-tim .hero-badges{margin-top:20px;gap:9px 15px}.hero-tim-media img{aspect-ratio:4/3;object-position:40% center}.tim-intro-photo img{height:350px}.tim-showcase-grid{grid-template-columns:1fr}.tim-work>img{aspect-ratio:5/3}.tim-contact img{width:76px;height:76px}.tim-contact p{font-size:12px}.hero-tim .btn{width:100%}}
+@media(max-width:1100px){.hero-brand-layout{gap:32px}.hero-brand h1{font-size:clamp(38px,4.6vw,60px)}}
+@media(max-width:800px){.hero-brand-layout{grid-template-columns:1fr;gap:25px;min-height:0;padding-block:54px 38px}.hero-brand-copy{max-width:720px}.hero-brand h1{font-size:clamp(40px,7vw,65px)}.hero-brand-media{max-width:690px;width:100%}.hero-brand-media img{aspect-ratio:16/9;object-position:40% 43%}.brand-intro-grid{grid-template-columns:1fr;gap:34px}.brand-intro-photo{max-width:660px}.brand-intro-photo img{height:420px}.brand-showcase-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.hero-brand-layout{padding-block:43px 30px}.hero-brand h1{font-size:clamp(37px,10vw,50px);margin:18px 0}.hero-brand .desc{font-size:15px}.hero-brand .hero-badges{margin-top:20px;gap:9px 15px}.hero-brand-media img{aspect-ratio:4/3;object-position:40% center}.brand-intro-photo img{height:350px}.brand-showcase-grid{grid-template-columns:1fr}.brand-work>img{aspect-ratio:5/3}.brand-contact img{width:76px;height:76px}.brand-contact p{font-size:12px}.hero-brand .btn{width:100%}}
 
 /* MP Services portfolio-first refresh: give the work visual priority. */
 .section-results-about .intro-photo-wrap{position:relative}
@@ -109,18 +109,18 @@ a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit}b
 .whatsapp-floating:hover{background:#128c51;box-shadow:0 12px 30px #0005}
 .whatsapp-floating .wa-icon{display:block;flex:none;width:31px;height:31px;fill:currentColor}
 .whatsapp-floating .wa-text{font-weight:800;letter-spacing:.01em}
-.contact-tim{display:flex;gap:15px;align-items:center;border:1px solid #ffffff30;background:#ffffff0c;border-radius:14px;margin-top:29px;max-width:480px;padding:12px}
-.contact-tim img{width:120px;height:112px;object-fit:cover;object-position:28% 30%;border-radius:10px;flex:none}
-.contact-tim strong{font-size:17px;color:#fff}
-.contact-tim p{font-size:13px;line-height:1.4;color:#e2e6e8;margin:5px 0}
-.contact-tim small{font-size:10px;color:#abb8c1;display:block;line-height:1.45}
+.contact-brand{display:flex;gap:15px;align-items:center;border:1px solid #ffffff30;background:#ffffff0c;border-radius:14px;margin-top:29px;max-width:480px;padding:12px}
+.contact-brand img{width:120px;height:112px;object-fit:cover;object-position:28% 30%;border-radius:10px;flex:none}
+.contact-brand strong{font-size:17px;color:#fff}
+.contact-brand p{font-size:13px;line-height:1.4;color:#e2e6e8;margin:5px 0}
+.contact-brand small{font-size:10px;color:#abb8c1;display:block;line-height:1.45}
 @media(max-width:600px){
- .hero-tim-layout{min-height:0;gap:18px;padding-block:32px}
- .hero-tim h1{font-size:clamp(31px,9vw,42px);margin:16px 0 11px;line-height:1.12}
- .hero-tim .desc{font-size:14px;line-height:1.5;margin:0}
- .hero-tim .hero-badges{margin-top:16px;gap:5px 12px;font-size:10px}
- .hero-tim .tim-disclaimer{margin-top:10px;font-size:10px}
- .hero-tim-media{border-radius:12px}
+ .hero-brand-layout{min-height:0;gap:18px;padding-block:32px}
+ .hero-brand h1{font-size:clamp(31px,9vw,42px);margin:16px 0 11px;line-height:1.12}
+ .hero-brand .desc{font-size:14px;line-height:1.5;margin:0}
+ .hero-brand .hero-badges{margin-top:16px;gap:5px 12px;font-size:10px}
+ .hero-brand .brand-disclaimer{margin-top:10px;font-size:10px}
+ .hero-brand-media{border-radius:12px}
  .section{padding-block:48px}
  .h2{font-size:clamp(28px,8vw,34px);margin:9px 0 14px}
  .section-head{margin-bottom:23px}
@@ -140,11 +140,11 @@ a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit}b
  .contact-grid{gap:30px}
  .quote-form{padding:18px}
  .contact-methods{margin-top:23px;gap:11px}
- .contact-tim{margin-top:18px;padding:9px;gap:10px}
- .contact-tim img{width:86px;height:92px}
- .contact-tim strong{font-size:14px}
- .contact-tim p{font-size:12px}
- .contact-tim small{font-size:9px}
+ .contact-brand{margin-top:18px;padding:9px;gap:10px}
+ .contact-brand img{width:86px;height:92px}
+ .contact-brand strong{font-size:14px}
+ .contact-brand p{font-size:12px}
+ .contact-brand small{font-size:9px}
  .whatsapp-floating{min-height:58px;bottom:max(12px,env(safe-area-inset-bottom));right:12px;padding:10px 14px;gap:8px;font-size:14px}
  .whatsapp-floating .wa-icon{width:32px;height:32px}
  .whatsapp-floating .wa-text{display:inline;font-size:13px}
@@ -158,10 +158,10 @@ a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit}b
 .contact-reference .kicker{font-size:11px;color:#d9a65c;letter-spacing:.19em}
 .contact-reference .contact-copy .h2{font:800 clamp(42px,4.8vw,66px)/1.14 Manrope,Arial,sans-serif;letter-spacing:-.05em;margin:22px 0 24px;max-width:620px}
 .contact-reference .contact-copy .h2 em{color:#e7b36a}
-.contact-tim-quote{display:flex;align-items:center;gap:17px;margin:8px 0 22px}
-.contact-tim-quote img{width:105px;height:105px;object-fit:cover;object-position:23% 26%;border-radius:50%;border:3px solid #c99d52;background:#fff;flex:none}
-.contact-tim-quote p{margin:0 0 5px;color:#fff;font-size:14px;line-height:1.55}
-.contact-tim-quote small{display:block;color:#e5b56f;font-size:11px;line-height:1.4}
+.contact-brand-quote{display:flex;align-items:center;gap:17px;margin:8px 0 22px}
+.contact-brand-quote img{width:105px;height:105px;object-fit:cover;object-position:23% 26%;border-radius:50%;border:3px solid #c99d52;background:#fff;flex:none}
+.contact-brand-quote p{margin:0 0 5px;color:#fff;font-size:14px;line-height:1.55}
+.contact-brand-quote small{display:block;color:#e5b56f;font-size:11px;line-height:1.4}
 .contact-reference .contact-copy>.lead{font-size:16px;line-height:1.8;max-width:500px;margin:0 0 28px}
 .contact-reference .contact-methods{margin-top:30px;gap:21px}
 .contact-reference .contact-methods a{font-size:17px;font-weight:800}
@@ -181,10 +181,10 @@ a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit}b
  .contact-reference{padding:50px 0 58px}
  .contact-reference .contact-grid{grid-template-columns:1fr;gap:28px}
  .contact-reference .contact-copy .h2{font-size:clamp(35px,8.2vw,46px);margin:14px 0 20px}
- .contact-tim-quote{gap:12px;margin-bottom:17px}
- .contact-tim-quote img{width:78px;height:78px}
- .contact-tim-quote p{font-size:12px}
- .contact-tim-quote small{font-size:10px}
+ .contact-brand-quote{gap:12px;margin-bottom:17px}
+ .contact-brand-quote img{width:78px;height:78px}
+ .contact-brand-quote p{font-size:12px}
+ .contact-brand-quote small{font-size:10px}
  .contact-reference .contact-copy>.lead{font-size:14px;line-height:1.5;margin-bottom:16px}
  .contact-reference .contact-methods{margin-top:15px;gap:11px}
  .contact-reference .contact-methods a{font-size:15px}
@@ -248,4 +248,4 @@ a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit}b
 /* Direct message path: visible without requiring the quote form. */
 .contact-direct-wa{display:inline-flex;align-items:center;justify-content:center;margin:7px 0 14px;padding:13px 20px;max-width:100%;font-size:14px;white-space:normal;text-align:center}
 .contact-reference .contact-methods{margin-top:14px}
-@media(max-width:700px){.contact-direct-wa{width:100%;font-size:13px;margin-top:2px}.hero-tim .desc{max-width:36ch}}
+@media(max-width:700px){.contact-direct-wa{width:100%;font-size:13px;margin-top:2px}.hero-brand .desc{max-width:36ch}}

@@ -16,7 +16,7 @@ O ZIP contém **simulações geradas por IA**, não obras reais executadas pela 
 
 ## Versão atual — serviços e comparações por IA
 
-A página inicial prioriza os seis serviços, mantém **Tim apenas no hero e na seção de contato**, e oferece acesso direto ao WhatsApp. O conteúdo redundante foi reduzido para uma leitura mais rápida, inclusive em celulares.
+A página inicial prioriza os seis serviços, mantém um personagem de apresentação no hero e na seção de contato, e oferece acesso direto ao WhatsApp. O conteúdo redundante foi reduzido para uma leitura mais rápida, inclusive em celulares.
 
 - **Cinco comparadores antes/depois deslizantes**: Gyproc, pintura, parquet, carrelage e renovação.
 - Imagens são **simulações geradas por inteligência artificial**, nunca obras atribuídas à MP Services.
