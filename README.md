@@ -2,7 +2,7 @@
 
 Site estático, responsivo e em francês para MP Services, empresa de renovação atuante em Bruxelas e arredores.
 
-**Site de demonstração:** https://sergiopacheco.github.io/mp-services/  
+**Site de demonstração:** https://www.mp-services.be/  
 **Domínio oficial planejado:** https://www.mp-services.be/  
 **Contato oficial:** +32 475 50 17 29 · info@mp-services.be
 
@@ -61,7 +61,7 @@ Configuração do repositório:
 
 - Settings → Pages → Deploy from a branch
 - Branch: `main` · Folder: `/(root)`
-- Endereço esperado: https://sergiopacheco.github.io/mp-services/
+- Endereço esperado: https://www.mp-services.be/
 
 Qualquer commit em `main` aciona um novo deploy, desde que Pages permaneça ativo.
 
