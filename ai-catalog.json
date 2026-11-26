@@ -1,0 +1,27 @@
+{
+  "$schema": "https://raw.githubusercontent.com/ards-project/ard-spec/main/spec/schemas/ai-catalog.schema.json",
+  "specVersion": "1.0",
+  "host": {
+    "displayName": "MP Services",
+    "documentationUrl": "https://www.mp-services.be/",
+    "logoUrl": "https://www.mp-services.be/assets/logo-oficial.webp"
+  },
+  "entries": [
+    {
+      "identifier": "urn:air:mp-services:website:home",
+      "displayName": "MP Services website",
+      "type": "text/html",
+      "url": "https://www.mp-services.be/",
+      "description": "Public website describing MP Services and its renovation services in Brussels and surrounding areas.",
+      "tags": ["renovation", "Brussels", "Belgium"]
+    },
+    {
+      "identifier": "urn:air:mp-services:website:services",
+      "displayName": "MP Services service pages",
+      "type": "text/html",
+      "url": "https://www.mp-services.be/services/renovation",
+      "description": "Service information for interior renovation, Gyproc, painting, parquet, tiling and post-work cleaning.",
+      "tags": ["Gyproc", "painting", "parquet", "tiling", "cleaning"]
+    }
+  ]
+}
